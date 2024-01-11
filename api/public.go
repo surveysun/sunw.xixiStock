@@ -62,3 +62,7 @@ type QTStockInfo struct {
 	NTurnoverF             float32 //成交额.单位万 精确4位
 	//之后的字段不知道是啥.不做解析
 }
+
+//K线图
+type QTFlashData struct {
+}
