@@ -1,4 +1,4 @@
-module zhuanqian-xixi-tool
+module sunw.xixiStock
 
 go 1.18
 

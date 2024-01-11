@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 	"strings"
-	"zhuanqian-xixi-tool/api"
-	"zhuanqian-xixi-tool/pkg/logger"
+	"sunw.xixiStock/api"
+	"sunw.xixiStock/pkg/logger"
 )
 
 func GetQTStockInfo(stocks []string) ([]*api.QTStockInfo, error) {

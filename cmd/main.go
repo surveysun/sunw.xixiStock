@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	log "github.com/sirupsen/logrus"
-	"zhuanqian-xixi-tool/pkg/logger"
+	"sunw.xixiStock/pkg/logger"
 )
 
 func initLogger(path string, debug, isPrint bool) {
@@ -18,7 +18,7 @@ func initLogger(path string, debug, isPrint bool) {
 var (
 	debug   = flag.Bool("debug", false, "是否debug输出,默认false")
 	isPrint = flag.Bool("isPrint", true, "是否控制台输出,默认true")
-	logfile = flag.String("logfile", "./zhuanqian-xixi-service.log", "日志文件.默认./zhuanqian-xixi-service.log")
+	logfile = flag.String("logfile", "./sunw.xixi-stock-service.log", "日志文件.默认./zhuanqian-xixi-service.log")
 )
 
 func main() {
